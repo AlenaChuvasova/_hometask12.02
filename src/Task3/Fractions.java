@@ -3,8 +3,6 @@ package Task3;
 import java.util.Objects;
 
 public class Fractions implements Comparable<Fractions> {
-    //num - числитель
-    //den - знаменатель
 
     private int num;
     private int den;
