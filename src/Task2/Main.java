@@ -6,8 +6,6 @@ public class Main {
 
         for (int i = 0; i < arr.length; i++) {
             arr[i] = i;
-            //System.out.print(arr[i] + " ");
-            //System.out.print('\n');
         }
         int res = 0;
         if (k >= 0) {
@@ -21,6 +19,5 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(func(1, new int[6]));
-
     }
 }
